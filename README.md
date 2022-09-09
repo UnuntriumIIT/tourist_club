@@ -1,5 +1,5 @@
 # tourist_club
-The fully complited website for planning and goind to hikes for money. Python, microservices.
+The fully complited website for planning and goind to hikes for money. Python.
 
 ### 09.09.2022 
 * Designing the idea:
