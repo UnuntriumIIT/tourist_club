@@ -38,6 +38,11 @@
     "last_opened_file_path": "C:/Users/tominaa/Documents/GitHub/tourist_club"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\tominaa\Documents\GitHub\tourist_club\static" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="tourist_club" type="Python.DjangoServer" factoryName="Django server">
       <module name="tourist_club" />
@@ -72,7 +77,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1662712715562</updated>
-      <workItem from="1662712717935" duration="3304000" />
+      <workItem from="1662712717935" duration="7256000" />
     </task>
     <servers />
   </component>
