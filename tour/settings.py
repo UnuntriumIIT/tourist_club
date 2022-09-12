@@ -24,6 +24,8 @@ INSTALLED_APPS = [
     'tourist_site.apps.TouristSiteConfig',
 ]
 
+LOGIN_REDIRECT_URL = '/'
+
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',

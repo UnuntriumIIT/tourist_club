@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1bcaef4-f01b-4bb5-b70d-bb147a36e4d8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/tourist/main_page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/tourist_club.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/tourist_club.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/registration/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/tourist/footer_fragment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/tourist/main_article.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/tourist/article_list.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/tourist/header_fragment.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/tourist/header_fragment.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/tourist/main_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/tourist/main_page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tour/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/tour/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tourist_site/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/tourist_site/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tourist_site/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/tourist_site/views.py" afterDir="false" />
     </list>
@@ -23,8 +24,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -52,6 +53,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\tominaa\Documents\GitHub\tourist_club\templates\registration" />
       <recent name="C:\Users\tominaa\Documents\GitHub\tourist_club\tourist_site" />
       <recent name="C:\Users\tominaa\Documents\GitHub\tourist_club\static" />
     </key>
@@ -92,7 +94,7 @@
       <updated>1662712715562</updated>
       <workItem from="1662712717935" duration="7855000" />
       <workItem from="1662954561180" duration="235000" />
-      <workItem from="1662954804950" duration="5839000" />
+      <workItem from="1662954804950" duration="16901000" />
     </task>
     <servers />
   </component>

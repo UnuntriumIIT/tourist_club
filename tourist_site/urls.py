@@ -1,7 +1,7 @@
-from django.urls import path
-
+from django.urls import path, include
 from . import views
 
 urlpatterns = [
-    path('', views.article_list, name='main_page'),
+    path('', views.main_page, name='main_page'),
+    path('accounts/', include('accounts.urls')),
 ]
