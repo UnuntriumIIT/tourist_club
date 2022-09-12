@@ -11,4 +11,4 @@ The idea is as follows: there should be a fault-tolerant website with authorizat
 Server-Database-Client
 'Client' means FrontEnd of website or View.
 'Server' means BackEnd of website - Models and Controllers.
-'Database' - Mongo.
+'Database' - Dev - sqlite, prod - postgres.
