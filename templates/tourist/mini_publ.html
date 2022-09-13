@@ -1,0 +1,10 @@
+{% for a in articles_mini %}
+<div class="card mx-auto mb-2" style="width: 49%">
+    <a href="#!"><img class="card-img-top" style="max-height: 350px" alt="" src={{ a.image_src }}></a>
+    <div class="card-body">
+        <div class="small text-muted">{{ a.created_date }}</div>
+        <h2 class="card-title h4">{{ a.title }}</h2>
+        <a class="btn btn-success" href="#!">Читать →</a>
+    </div>
+</div>
+{% endfor %}

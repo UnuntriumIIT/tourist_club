@@ -1,3 +1,87 @@
-<div>
+<div class="row">
+    <!-- Blog entries-->
+    <div class="col-lg-8">
+        <!-- Featured blog post-->
+        {% include "tourist/big_publ.html" %}
+        <!-- Nested row for non-featured blog posts-->
+        <div class="d-flex flex-wrap">
+            <!-- Blog post-->
+            {% include "tourist/mini_publ.html" %}
+            <!-- Blog post-->
+        </div>
+        <!-- Pagination-->
+        <nav aria-label="Pagination">
+            <hr class="my-0">
+            <ul class="pagination justify-content-center my-4">
+                <li class="page-item disabled"><a class="page-link" href="#" tabindex="-1"
+                                                  aria-disabled="true">Newer</a></li>
+                <li class="page-item active" aria-current="page"><a class="page-link" href="#!">1</a></li>
+                <li class="page-item"><a class="page-link" href="#!">2</a></li>
+                <li class="page-item"><a class="page-link" href="#!">3</a></li>
+                <li class="page-item disabled"><a class="page-link" href="#!">...</a></li>
+                <li class="page-item"><a class="page-link" href="#!">15</a></li>
+                <li class="page-item"><a class="page-link" href="#!">Older</a></li>
+            </ul>
+        </nav>
+    </div>
+    <!-- Side widgets-->
+    <div class="col-lg-4">
+        <!-- Categories widget-->
+        <div class="card mb-4">
+            <div class="card-header">Ближайшие походы</div>
+            <div class="card-body">
+                <div class="row">
+                    <div>
+                        <ul class="list-unstyled mx-3">
+                            <li><a href="#!">Уреньга - 01.10.2022</a></li>
+                            <li><a href="#!">Таганай - 08.10.2022</a></li>
+                            <li><a href="#!">Сугомак - 14.10.2022</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Side widget-->
+        <div class="card mb-4">
+            <div class="card-header">Погода</div>
+            <!-- weather widget start -->
+            <div id="card-body m-booked-small-t3-86129">
+                <div class="booked-weather-160x36 w160x36-03"
+                     style="color:#333333; border-radius:0px; -moz-border-radius:0px; border:none">
+                    <div style="color:#08488D;" class="booked-bl-simple-city">Челябинск</div>
+                    <div class="booked-weather-160x36-degree"><span class="plus">+</span>13&deg;<span>C</span></div>
+                </div>
+            </div>
+            <script type="text/javascript"> var css_file = document.createElement("link");
+            var widgetUrl = location.href;
+            css_file.setAttribute("rel", "stylesheet");
+            css_file.setAttribute("type", "text/css");
+            css_file.setAttribute("href", 'https://s.bookcdn.com/css/w/bw-160-36.css?v=0.0.1');
+            document.getElementsByTagName("head")[0].appendChild(css_file);
 
+            function setWidgetData_86129(data) {
+                if (typeof (data) != 'undefined' && data.results.length > 0) {
+                    for (var i = 0; i < data.results.length; ++i) {
+                        var objMainBlock = document.getElementById('m-booked-small-t3-86129');
+                        if (objMainBlock !== null) {
+                            var copyBlock = document.getElementById('m-bookew-weather-copy-' + data.results[i].widget_type);
+                            objMainBlock.innerHTML = data.results[i].html_code;
+                            if (copyBlock !== null) objMainBlock.appendChild(copyBlock);
+                        }
+                    }
+                } else {
+                    alert('data=undefined||data.results is empty');
+                }
+            }
+
+            var widgetSrc = "https://widgets.booked.net/weather/info?action=get_weather_info;ver=7;cityID=19829;type=13;scode=124;ltid=3539;domid=589;anc_id=49423;countday=undefined;cmetric=1;wlangID=20;color=fff5d9;wwidth=158;header_color=fff5d9;text_color=333333;link_color=08488D;border_form=2;footer_color=fff5d9;footer_text_color=333333;transparent=1;v=0.0.1";
+            widgetSrc += ';ref=' + widgetUrl;
+            widgetSrc += ';rand_id=86129';
+            var weatherBookedScript = document.createElement("script");
+            weatherBookedScript.setAttribute("type", "text/javascript");
+            weatherBookedScript.src = widgetSrc;
+            document.body.appendChild(weatherBookedScript) </script><!-- weather widget end -->
+        </div>
+    </div>
+</div>
 </div>

@@ -9,6 +9,7 @@ class Article(models.Model):
     title = models.CharField(max_length=200)
     image_src = models.TextField()
     text = models.TextField()
+    is_main = models.BooleanField()
     created_date = models.DateTimeField(default=timezone.now)
     published_date = models.DateTimeField(blank=True, null=True)
 

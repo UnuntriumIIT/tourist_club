@@ -2,15 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1bcaef4-f01b-4bb5-b70d-bb147a36e4d8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/accounts/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/registration/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/tourist/footer_fragment.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/tourist/main_article.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/tourist/big_publ.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/tourist/mini_publ.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/3d90c8a2-6814-4f40-872e-add90fdeec6a.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/3d90c8a2-6814-4f40-872e-add90fdeec6a.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/tourist/header_fragment.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/tourist/header_fragment.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/registration/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/registration/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/tourist/main_article.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/tourist/main_article.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/tourist/main_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/tourist/main_page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tour/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/tour/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tourist_site/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/tourist_site/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tourist_site/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/tourist_site/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tourist_site/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/tourist_site/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,8 +23,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -40,17 +39,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/tominaa/Documents/GitHub/tourist_club",
-    "settings.editor.selected.configurable": "preferences.keymap"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/tominaa/Documents/GitHub/tourist_club&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\tominaa\Documents\GitHub\tourist_club\templates\registration" />
@@ -94,7 +93,9 @@
       <updated>1662712715562</updated>
       <workItem from="1662712717935" duration="7855000" />
       <workItem from="1662954561180" duration="235000" />
-      <workItem from="1662954804950" duration="16901000" />
+      <workItem from="1662954804950" duration="16930000" />
+      <workItem from="1662984531847" duration="962000" />
+      <workItem from="1663040168208" duration="8418000" />
     </task>
     <servers />
   </component>
