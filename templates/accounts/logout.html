@@ -1,0 +1,11 @@
+{% extends 'base_page.html' %}
+{% load static %}
+{% block title %}Выход{% endblock title %}
+{% block content %}
+    <main>
+        <div class="container d-flex align-middle align-content-center flex-column">
+            <img class="m-auto" width="50%" src={% static 'img/background.png' %}>
+            <h4 class="m-auto">Вы вышли из аккаунта.</h4>
+        </div>
+    </main>
+{% endblock content %}

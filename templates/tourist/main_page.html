@@ -1,23 +1,59 @@
-{% load static %}
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <link rel="stylesheet" href={% static 'css/bootstrap.min.css' %}>
-    <link rel="icon" href={% static 'img/lizard.png' %}>
-    <script src={% static 'js/bootstrap.bundle.min.js' %}></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-            crossorigin="anonymous"></script>
-    <meta charset="UTF-8">
-    <title>Туристский клуб «Саламандр»</title>
-</head>
-<body>
-{% include "tourist/header_fragment.html" %}
-<main class="my-3">
-    <div class="container">
-        {% include "tourist/main_article.html" %}
-    </div>
-</main>
-{% include "tourist/footer_fragment.html" %}
-</body>
-</html>
+{% extends 'base_page.html' %}
+{% block title %}Главная{% endblock title %}
+{% block content %}
+    <main class="my-3">
+        <div class="container">
+            <div class="row">
+                <!-- Blog entries-->
+                <div class="col-lg-8">
+                    <!-- Featured blog post-->
+                    {% include "tourist/big_publ.html" %}
+                    <!-- Nested row for non-featured blog posts-->
+                    <div class="d-flex flex-wrap">
+                        <!-- Blog post-->
+                        {% include "tourist/mini_publ.html" %}
+                        <!-- Blog post-->
+                    </div>
+                    <!-- Pagination-->
+                    <nav aria-label="Pagination">
+                        <hr class="my-0">
+                        <ul class="pagination justify-content-center my-4">
+                            <li class="page-item disabled"><a class="page-link" href="#" tabindex="-1"
+                                                              aria-disabled="true">Newer</a></li>
+                            <li class="page-item active" aria-current="page"><a class="page-link" href="#!">1</a></li>
+                            <li class="page-item"><a class="page-link" href="#!">2</a></li>
+                            <li class="page-item"><a class="page-link" href="#!">3</a></li>
+                            <li class="page-item disabled"><a class="page-link" href="#!">...</a></li>
+                            <li class="page-item"><a class="page-link" href="#!">15</a></li>
+                            <li class="page-item"><a class="page-link" href="#!">Older</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <!-- Side widgets-->
+                <div class="col-lg-4">
+                    <!-- Categories widget-->
+                    <div class="card mb-4">
+                        <div class="card-header">Ближайшие походы</div>
+                        <div class="card-body">
+                            <div class="row">
+                                <div>
+                                    <ul class="list-unstyled mx-3">
+                                        <li><a href="#!">Уреньга - 01.10.2022</a></li>
+                                        <li><a href="#!">Таганай - 08.10.2022</a></li>
+                                        <li><a href="#!">Сугомак - 14.10.2022</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Side widget-->
+                    <div class="card mb-4">
+                        <div class="card-header">Погода</div>
+                        <!-- weather widget start -->
+                        <!-- weather widget end -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+{% endblock content %}

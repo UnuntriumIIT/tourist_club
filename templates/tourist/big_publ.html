@@ -1,8 +1,8 @@
 <div class="card mb-2">
-    <a href="#!"><img class="card-img-top" alt="..." style="max-height: 350px" src={{ article_big.image_src }} ></a>
+    <a href="#!"><img class="card-img-top" alt="..." style="max-width: 730px" src={{ article_big.0.image_src }} ></a>
     <div class="card-body">
-        <div class="small text-muted">{{ article_big.created_date }}</div>
-        <h2 class="card-title">{{ article_big.title }}</h2>
+        <div class="small text-muted">{{ article_big.0.created_date }}</div>
+        <h2 class="card-title">{{ article_big.0.title }}</h2>
         <a class="btn btn-success" href="#!">Читать →</a>
     </div>
 </div>
