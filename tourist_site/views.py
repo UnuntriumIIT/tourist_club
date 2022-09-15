@@ -60,10 +60,6 @@ def register_view(request):
     return render(request, './accounts/registration.html')
 
 
-def news_view(request):
-    return render(request, './tourist/news_page.html')
-
-
 def hikes_view(request):
     return render(request, './tourist/hikes_page.html')
 

@@ -1778,32 +1778,32 @@ model</ColNames>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <column id="588" parent="494" name="image_src">
+    <column id="588" parent="494" name="text">
       <DataType>TEXT|0s</DataType>
       <NotNull>1</NotNull>
       <Position>3</Position>
     </column>
-    <column id="589" parent="494" name="text">
-      <DataType>TEXT|0s</DataType>
+    <column id="589" parent="494" name="created_date">
+      <DataType>datetime|0s</DataType>
       <NotNull>1</NotNull>
       <Position>4</Position>
     </column>
-    <column id="590" parent="494" name="created_date">
+    <column id="590" parent="494" name="published_date">
       <DataType>datetime|0s</DataType>
-      <NotNull>1</NotNull>
       <Position>5</Position>
     </column>
-    <column id="591" parent="494" name="published_date">
-      <DataType>datetime|0s</DataType>
+    <column id="591" parent="494" name="author_id">
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
       <Position>6</Position>
     </column>
-    <column id="592" parent="494" name="author_id">
-      <DataType>INTEGER|0s</DataType>
+    <column id="592" parent="494" name="is_main">
+      <DataType>bool|0s</DataType>
       <NotNull>1</NotNull>
       <Position>7</Position>
     </column>
-    <column id="593" parent="494" name="is_main">
-      <DataType>bool|0s</DataType>
+    <column id="593" parent="494" name="image_src">
+      <DataType>varchar(100)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>8</Position>
     </column>

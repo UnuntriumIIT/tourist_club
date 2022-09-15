@@ -7,7 +7,7 @@ class Article(models.Model):
 
     author = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
     title = models.CharField(max_length=200)
-    image_src = models.URLField()
+    image_src = models.FileField(upload_to='article', null=True, blank=True, verbose_name='image')
     text = models.TextField()
     is_main = models.BooleanField()
     created_date = models.DateTimeField(default=timezone.now)
