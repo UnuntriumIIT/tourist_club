@@ -2,22 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1bcaef4-f01b-4bb5-b70d-bb147a36e4d8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/accounts/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/accounts/logout.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/accounts/profile.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/accounts/registration.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/base_page.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tourist_site/migrations/0003_alter_article_image_src.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/tourist/about_page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/tourist/contacts_page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/tourist/hikes_page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/tourist/news_page.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/registration/login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/tourist/big_publ.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/tourist/big_publ.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/tourist/footer_fragment.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/tourist/header_fragment.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/tourist/main_article.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/accounts/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/accounts/profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/tourist/big_publ.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/tourist/objects/publications/big_publ.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/tourist/main_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/tourist/main_page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tour/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/tour/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tourist_site/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/tourist_site/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/tourist/mini_publ.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/tourist/objects/publications/mini_publ.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tourist_site/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/tourist_site/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tourist_site/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/tourist_site/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,6 +54,8 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\tominaa\Documents\GitHub\tourist_club\templates\tourist\objects\publications" />
+      <recent name="C:\Users\tominaa\Documents\GitHub\tourist_club\templates\tourist\objects" />
       <recent name="C:\Users\tominaa\Documents\GitHub\tourist_club\templates\registration" />
       <recent name="C:\Users\tominaa\Documents\GitHub\tourist_club\tourist_site" />
       <recent name="C:\Users\tominaa\Documents\GitHub\tourist_club\static" />
@@ -105,6 +101,7 @@
       <workItem from="1662984531847" duration="962000" />
       <workItem from="1663040168208" duration="9043000" />
       <workItem from="1663126952868" duration="12909000" />
+      <workItem from="1663213318971" duration="2310000" />
     </task>
     <servers />
   </component>

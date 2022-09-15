@@ -19,18 +19,17 @@
                         <div class="card-body p-0">
                             <ul class="list-group list-group-flush rounded-3">
                                 <li class="list-group-item d-flex align-items-center p-3 bg-light">
-                                    <a href="#" class="mb-0 mx-auto px-5 text-dark alert-link text-decoration-none">Настройки</a>
+                                    <a href="/accounts/settings" class="mb-0 mx-auto px-5 text-dark alert-link text-decoration-none">Настройки</a>
                                 </li>
                                 <li class="list-group-item d-flex align-items-center p-3 bg-light">
-                                    <a href="#" class="mb-0 mx-auto px-5 text-dark alert-link text-decoration-none">События</a>
+                                    <a href="/accounts/actions" class="mb-0 mx-auto px-5 text-dark alert-link text-decoration-none">События</a>
                                 </li>
                                 <li class="list-group-item d-flex align-items-center p-3 bg-light">
-                                    <a href="#" class="mb-0 mx-auto px-5 text-dark alert-link text-decoration-none">Что-то
-                                        еще.....</a>
+                                    <a href="/accounts/other" class="mb-0 mx-auto px-5 text-dark alert-link text-decoration-none">Другое</a>
                                 </li>
                                 {% if request.user.is_staff %}
                                     <li class="list-group-item d-flex align-items-center p-3 bg-light">
-                                    <a href="#" class="mb-0 mx-auto px-5 text-dark alert-link text-decoration-none">Админка</a>
+                                    <a href="/admin" class="mb-0 mx-auto px-5 text-dark alert-link text-decoration-none">Админка</a>
                                 </li>
                                 {% endif %}
                             </ul>

@@ -58,3 +58,19 @@ def register_view(request):
             return http.HttpResponseServerError('Ошибка при создании пользователя')
         return redirect(login_view)
     return render(request, './accounts/registration.html')
+
+
+def news_view(request):
+    return render(request, './tourist/news_page.html')
+
+
+def hikes_view(request):
+    return render(request, './tourist/hikes_page.html')
+
+
+def about_view(request):
+    return render(request, './tourist/about_page.html')
+
+
+def contacts_view(request):
+    return render(request, './tourist/contacts_page.html')
